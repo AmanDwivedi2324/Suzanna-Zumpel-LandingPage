@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: monospace; */
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: hsla(8, 47%, 33%, 0.812);
+    display: flex;
+}
+
+.nav{
+    position: absolute;
+    width: 23vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left: 7.5vw;
+    top: 4vw;
+    /* background-color: rebeccapurple; */
+}
+
+.nav img{
+    height: 5vw;
+}
+
+.nav h5{
+    font-size: 1.5vw;
+    color: white;
+    font-weight: 500;
+    padding-right: 0.8vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.part1{
+    height: 100%;
+    width: 25%;
+    /* background-color: rgb(231, 110, 110); */
+}
+
+.part2{
+    height: 100%;
+    width: 68%;
+    background-color: rgb(115, 115, 236);
+    background-image: url(https://images.unsplash.com/photo-1526510747491-58f928ec870f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color:hsla(344, 14%, 62%, 0.132);
+}
+
+.part3{
+    height: 100%;
+    width: 7%;
+    /* background-color: rgb(125, 242, 125); */
+}
+
+.text-area{
+   height: 300px;
+   width: 400px;
+   position: absolute;
+   /* background-color: red; */
+   left: 7%;
+   top: 50%;
+   transform: translateY(-50%);
+}
+
+.text-area>h1{
+    font-size:7vw ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    line-height: 6vw;
+    color: white;
+    letter-spacing:0.5vw;
+}
+
+.small-img{
+    height: 30vw;
+    width: 25vw;
+    background-image: url(https://images.unsplash.com/photo-1526510747491-58f928ec870f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    /* background-color:rgba(48, 49, 54, 0.892); */
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%);
+}
+
+.overlay2{
+    height: 100%;
+    width: 100%;
+    background-color:hsla(344, 14%, 62%, 0.132);
+}
+
+.vertical-text{
+    position: absolute;
+    rotate: 90deg;
+    right: -45%;
+    transform-origin: 0% 0%;
+    /* width: 100%; */
+    /* background-color: red; */
+}
+
+.vertical-text h1{
+    font-size: 4vw;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px white;
+    transform: translate(0,-50%);
+    color: transparent;
+   letter-spacing:0.5vw ;
+}
